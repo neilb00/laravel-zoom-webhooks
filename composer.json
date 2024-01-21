@@ -1,6 +1,12 @@
 {
     "name": "binary-cats/laravel-zoom-webhooks",
     "description": "Handle Zoom.us webhooks in a Laravel application",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/neilb00/laravel-zoom-webhooks"
+        }
+    ],    
     "keywords": [
         "binary-cats",
         "laravel",
@@ -19,7 +25,7 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^7.2|^8.0|~8.0|^8.0.2",
         "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0",
         "spatie/laravel-webhook-client": "^2.0"
     },
