@@ -6,7 +6,10 @@
             "type": "vcs",
             "url": "https://github.com/neilb00/laravel-zoom-webhooks"
         }
-    ],    
+    ],
+    "require": {
+        "neilb00/laravel-zoom-webhook": "composerFix"
+    },
     "keywords": [
         "binary-cats",
         "laravel",
