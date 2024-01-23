@@ -1,12 +1,6 @@
 {
-    "name": "binary-cats/laravel-zoom-webhooks",
-    "description": "Handle Zoom.us webhooks in a Laravel application",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/neilb00/laravel-zoom-webhooks"
-        }
-    ],    
+    "name": "neilb00/laravel-zoom-webhooks",
+    "description": "Handle Zoom.us webhooks in a Laravel application",  
     "keywords": [
         "binary-cats",
         "laravel",
