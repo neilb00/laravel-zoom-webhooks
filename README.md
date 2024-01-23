@@ -70,9 +70,16 @@ In the `signing_secret` key of the config file you should add a valid webhook se
 
 **You can skip migrating is you have already installed `Spatie\WebhookClient`**
 
-Next, you must publish the migration with:
+Next, you must publish the migration with 
+
+For Laravel <=V8
 ```bash
 php artisan vendor:publish --provider="Spatie\WebhookClient\WebhookClientServiceProvider" --tag="migrations"
+```
+
+For Laravel >=V9
+```bash
+php artisan vendor:publish --provider="Spatie\WebhookClient\WebhookClientServiceProvider" --tag="webhook-client-migrations"
 ```
 
 After migration has been published you can create the `webhook_calls` table by running the migrations:
